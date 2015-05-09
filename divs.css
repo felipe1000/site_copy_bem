@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #999999;
+	background-image: url(imagens/fundo_cabecalho.png);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+}
+#container {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rbga(255,0,0,0.5);
+}
+#cabecalho {
+	height: 90px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#meio {
+	float: left;
+	width: 900px;
+	padding: 0px;
+	background-color: #CCCCCC;
+}
+#menu {
+	width: 180px;
+	float: left;
+	padding-top: 10px;
+}
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu a {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: #0066CC;
+	font-size: 16px;
+	text-transform: capitalize;
+	background-position: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	margin-bottom: 11px;
+}
+#redes a {
+	font-family: "Social Logos";
+	font-size: 36px;
+}
+
+#menu a:hover {
+	color:#0066CC;
+	background-color:#FFF;
+}
+#vitrine {
+	width: 650px;
+	float: left;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+}
+#produto {
+	float: left;
+	width: 450px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+#foto {
+	float: left;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	padding-left: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+}
+#botoes {
+	width: 480px;
+	float: left;
+}
+#botoes ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#botoes li {
+	display: inline;
+	float: left;
+	position: relative;
+}
+#botoes a {
+	width: 80px;
+	background-color: #0066CC;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 18px;
+	background-position: 10px;
+	text-align: center;
+	display: inline-block;
+}
+.esquerda {
+	text-align: left;
+	display: inline;
+	float: left;
+	width: 200px;
+}
+.direita {
+	text-align: right;
+	display: inline;
+	float: left;
+	width: 280px;
+}
+
+#botoes a:hover {
+	color: #0066CC;
+	background-color: #999999;
+}
+#botoes ul li ul {
+	display: none;
+	position: absolute;
+	width: 148px;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 35px;
+}
+#botoes ul li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+#loja {
+	float: left;
+	background-color: #FFFFFF;
+	margin: 10px;
+}
+#propaganda {
+	width: 165px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+#rodape {
+	background-color: #FFFFFF;
+	float: left;
+	width: 900px;
+	height: 60px;
+	text-align: center;
+	color: #0066CC;
+	padding-bottom: 10px;
+}
+#redes {
+	float: left;
+	width: 250px;
+}
+#comprar {
+	float: left;
+	width: 200px;
+	font-size: 16px;
+}
