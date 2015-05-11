@@ -61,8 +61,21 @@ body {
 	float: left;
 	font-size: 18px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	margin-left: 10px;
+	margin-right: 10px;
+}
+#contato {
+	width: 250px;
+	float: left;
+	font-size: 14px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#mapa {
+	width: 350px;
+	float: left;
+	font-size: 14px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #produto {
 	float: left;

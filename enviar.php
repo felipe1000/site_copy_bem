@@ -5,13 +5,35 @@
 <title>:::Copybem:::</title>
 <link href="divs.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
    <div id="container">
      <div id="cabecalho"><img src="imagens/logo.png" width="223" height="82" /></div>
       <div id="meio">
          <div id="menu"><?php include ("menu.html");?><div id="propaganda"><img src="imagens/Banner_Propaganda.gif"/></div></div>
          <div id="loja">
-            <div id="vitrine"><?php include ("contato.html");?></div>
+            <div id="vitrine">
+            	<?php
+
+				$nome=$_POST['nome'];
+				$email=$_POST['email'];
+				$assunto=$_POST['assunto'];
+				$mensagem=$_POST['mensagem'];
+				?>
+				<fieldset><legend>Mensagens Enviada!</legend>
+				<?php
+				echo "<br>Nome: ".$nome."<br>";
+				echo "E-mail: ".$email."<br>";
+				echo "Assunto: ".$assunto."<br>";
+				echo "Mensagem: ".$mensagem."<br>";
+				?>
+			    </fieldset>
+			    <div id="menu">
+			    	<ul>
+			    	<li><a href="contato.php">Voltar</a></li>
+			        </ul>
+			    </div>
+            </div>
          </div>
       <div id="rodape">&nbsp;Av.Ceará, 711 Porto Alegre/RS <br />&nbsp;Copybem - Usinagens</div>
    </div>
