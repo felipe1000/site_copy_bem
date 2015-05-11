@@ -12,7 +12,7 @@
       <div id="meio">
          <div id="menu"><?php include ("menu.html");?><div id="propaganda"><img src="imagens/Banner_Propaganda.gif"/></div></div>
          <div id="loja">
-            <div id="vitrine"><?php include ("produtos.html");?></div>
+            <div id="vitrine"><?php include ("empresa.html");?></div>
          </div>
       <div id="rodape">&nbsp;Av.Ceará, 711 Porto Alegre/RS <br />&nbsp;Copybem - Usinagens</div>
    </div>

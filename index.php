@@ -7,15 +7,14 @@
 </head>
 
 <body>
- <div id="container">
-   <div id="cabecalho"><img src="imagens/logo.png" width="223" height="82" /></div>
-   <div id="meio">
-    <div id="menu"><?php include ("menu.html");?>
-     <div id="propaganda">Content for  id "propaganda" Goes Here</div></div>
-    <div id="vitrine"><?php include ("home.html");?></div>    
+   <div id="container">
+     <div id="cabecalho"><img src="imagens/logo.png" width="223" height="82" /></div>
+      <div id="meio">
+         <div id="menu"><?php include ("menu.html");?><div id="propaganda"><img src="imagens/Banner_Propaganda.gif"/></div></div>
+         <div id="loja">
+            <div id="vitrine"><?php include ("home.html");?></div>
+         </div>
+      <div id="rodape">&nbsp;Av.Ceará, 711 Porto Alegre/RS <br />&nbsp;Copybem - Usinagens</div>
    </div>
-   <div id="rodape">&nbsp;Av.Ceará, 711 Porto Alegre/RS 
-   <br />&nbsp;Copybem - Usinagens</div>
- </div>
 </body>
 </html>
